@@ -1,0 +1,22 @@
+{
+  "name": "tuna",
+  "version": "1.0.1",
+  "description": "An audio effects library for Web Audio, made by www.dinahmoe.com",
+  "main": "tuna.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ziflex/tuna.git"
+  },
+  "keywords": [
+    "webaudio"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ziflex/tuna/issues"
+  },
+  "homepage": "https://github.com/ziflex/tuna"
+}
