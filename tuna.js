@@ -1745,11 +1745,13 @@
     Tuna.toString = Tuna.prototype.toString = function () {
         return "You are running Tuna version " + version + " by Dinahmoe!";
     };
-    if(typeof define === "function") {
+    if (typeof define === 'function' && define['amd']) {
         define("Tuna", [], function () {
             return Tuna;
         });
+    } else if (typeof module !== 'undefined' && module['exports']) {
+      	module['exports'] = Tuna 
     } else {
-        window.Tuna = Tuna;
+    	window.Tuna = Tuna;
     }
 })(this);
